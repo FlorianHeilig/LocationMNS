@@ -1,0 +1,15 @@
+.brand {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+
+.logo {
+  height: 72px;
+  width: 72px;
+}
+
+.title {
+  font-weight: 900;
+}
