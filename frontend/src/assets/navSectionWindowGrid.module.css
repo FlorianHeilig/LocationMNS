@@ -1,3 +1,7 @@
+.grid {
+  display: flex;
+}
+
 .containerImage {
   background-color: #68bbe3;
   padding: 20px;
