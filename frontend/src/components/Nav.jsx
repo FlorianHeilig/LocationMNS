@@ -1,6 +1,6 @@
 import { useState } from "react";
 import style from "../assets/nav.module.css";
-import NavSectionWindowCategory from "./NavSectionWindowCategory";
+import Category from "./Category";
 import { CgChevronRight } from "react-icons/cg";
 
 export default function Nav() {
@@ -14,11 +14,11 @@ export default function Nav() {
         onMouseLeave={() => setOpen(false)}
       >
         <a className={style.section}>
-          Catégorie
+          Catalogue
           <CgChevronRight className={style.icon} />
         </a>
         <div className={`${style.window} ${open ? style.show : ""}`}>
-          <NavSectionWindowCategory />
+          <Category title="Ordinateurs" />
         </div>
       </div>
     </div>

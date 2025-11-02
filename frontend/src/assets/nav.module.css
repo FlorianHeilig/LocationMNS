@@ -11,6 +11,7 @@
 .section {
   cursor: pointer;
   display: flex;
+  font-size: 24px;
   align-items: center;
   gap: 4px;
   padding: 8px 12px;
@@ -25,7 +26,7 @@
   position: absolute;
   top: 75px;
   left: 0;
-  width: 100%;
+  width: 147vh;
   background-color: #fff;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
   border-radius: 10px;
