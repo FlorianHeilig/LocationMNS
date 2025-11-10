@@ -1,0 +1,32 @@
+[
+  {
+    "itemTitle": "Ordinateurs Portables",
+    "icon": "pcPortable",
+    "alt": "Ordinateurs Portables"
+  },
+  {
+    "itemTitle": "Ordinateurs Fixes",
+    "icon": "pcFixe",
+    "alt": "Ordinateurs Fixes"
+  },
+  {
+    "itemTitle": "Ordinateurs Mac",
+    "icon": "mac",
+    "alt": "Ordinateurs Mac"
+  },
+  {
+    "itemTitle": "MacBook",
+    "icon": "macBook",
+    "alt": "MacBook"
+  },
+  {
+    "itemTitle": "PC Gamer",
+    "icon": "pcGamer",
+    "alt": "PC Gamer"
+  },
+  {
+    "itemTitle": "Mini PC",
+    "icon": "miniPC",
+    "alt": "Mini PC"
+  }
+]

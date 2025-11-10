@@ -4,7 +4,7 @@ import NavSectionWindowGrid from "./NavSectionWindowGrid";
 export default function Category(props) {
   return (
     <>
-      <h2 className={style.categoryName}>{props.title}</h2>
+      <h2 className={style.categoryName}> {props.title}</h2>
       <NavSectionWindowGrid />
     </>
   );

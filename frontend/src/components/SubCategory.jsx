@@ -2,13 +2,13 @@ import style from "../assets/subCategory.module.css";
 
 export default function SubCategory(props) {
   return (
-    <div className={style.container}>
+    <li className={style.container}>
       <div className={style.containerImage}>
-        //TODO gestion des liens
+        {/*TODO gestion des liens*/}
         <a href=""></a>
-        <img src={props.src} alt={props.alt} className={style.image} />
+        <img {...props} className={style.image} />
       </div>
-      <h3>{props.title}</h3>
-    </div>
+      <h3>{props.itemTitle}</h3>
+    </li>
   );
 }
